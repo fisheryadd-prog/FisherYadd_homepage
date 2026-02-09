@@ -1,0 +1,70 @@
+import Header from '@/components/layout/Header';
+import Hero from '@/components/sections/Hero';
+import About from '@/components/sections/About';
+import Projects from '@/components/sections/Projects';
+import Qualifications from '@/components/sections/Qualifications';
+import Contact from '@/components/sections/Contact';
+import Comments from '@/components/sections/Comments';
+import Footer from '@/components/layout/Footer';
+import AIAssistant from '@/components/sections/AIAssistant';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Fisher老师',
+  jobTitle: '英语讲师',
+  description: '雅思8分专家，教学十余年',
+  url: 'https://yuzeng.com',
+  knowsAbout: [
+    '雅思培训',
+    '托福培训',
+    'GRE培训',
+    '商务英语',
+  ],
+  alumniOf: {
+    '@type': 'CollegeOrUniversity',
+    name: '英国兰卡斯特大学',
+  },
+};
+
+export default function Home() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <main className="min-h-screen">
+        <Header />
+
+        <section id="hero">
+          <Hero />
+        </section>
+
+        <section id="about" className="bg-white">
+          <About />
+        </section>
+
+        <section id="projects">
+          <Projects />
+        </section>
+
+        <section id="qualifications">
+          <Qualifications />
+        </section>
+
+        <section id="contact" className="bg-white">
+          <Contact />
+        </section>
+
+        <section id="comments">
+          <Comments />
+        </section>
+
+        <Footer />
+
+        <AIAssistant />
+      </main>
+    </>
+  );
+}
