@@ -23,9 +23,6 @@ const Comments = dynamic(() => import('@/components/sections/Comments'), {
   loading: () => <CommentsSkeleton />,
 });
 
-// ISR重新验证：每小时重新生成页面
-export const revalidate = 3600;
-
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Person',
