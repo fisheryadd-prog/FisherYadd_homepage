@@ -82,34 +82,10 @@ const Contact = () => {
                   Fisher老师
                 </h3>
                 <p className="text-slate-600 leading-relaxed">
-                  扫描上方二维码，关注公众号FisherYadd，
-                  <br />
-                  即可获取：
+                  扫描上方二维码，关注公众号FisherYadd
                 </p>
 
                 <ul className="space-y-4">
-                  <li className="flex items-start gap-3">
-                    <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Sparkles className="w-4 h-4 text-blue-600" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-slate-900 mb-1">免费咨询</h4>
-                      <p className="text-sm text-slate-600">
-                        课程咨询、学习规划、备考建议
-                      </p>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Sparkles className="w-4 h-4 text-purple-600" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-slate-900 mb-1">一对一辅导</h4>
-                      <p className="text-sm text-slate-600">
-                        个性化教学方案，针对性提升
-                      </p>
-                    </div>
-                  </li>
                   <li className="flex items-start gap-3">
                     <div className="w-6 h-6 bg-pink-100 rounded-full flex items-center justify-center flex-shrink-0">
                       <Sparkles className="w-4 h-4 text-pink-600" />

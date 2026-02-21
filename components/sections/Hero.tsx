@@ -22,22 +22,6 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container-custom text-center px-4">
-        {/* Avatar with Glow Effect */}
-        <div className="mb-10 relative inline-block">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full blur-2xl opacity-30 animate-pulse" />
-          <div className="relative w-48 h-48 mx-auto rounded-full bg-white shadow-2xl border-4 border-white/50 flex items-center justify-center overflow-hidden">
-            <div className="w-full h-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center">
-              <svg
-                className="w-28 h-28 text-white/90"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-              </svg>
-            </div>
-          </div>
-        </div>
-
         {/* Name with Gradient */}
         <h1 className="text-6xl md:text-8xl font-bold mb-6 animate-fade-in">
           <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">

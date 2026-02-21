@@ -76,6 +76,7 @@ const About = () => {
       courses: [
         { name: '英语四级', tag: '高分攻略', highlight: true },
         { name: '英语六级', tag: '刷分提升', highlight: true },
+        { name: '考研英语', tag: '名师辅导', highlight: false },
       ]
     },
     {
