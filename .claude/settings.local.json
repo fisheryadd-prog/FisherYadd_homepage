@@ -15,7 +15,8 @@
       "Bash(ping:*)",
       "Bash(git checkout:*)",
       "Bash(npm ci)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(git remote set-url:*)"
     ]
   }
 }
