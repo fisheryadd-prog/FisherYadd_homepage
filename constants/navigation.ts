@@ -6,5 +6,4 @@ export const NAV_ITEMS: NavLink[] = [
   { label: 'AI项目', href: '#projects' },
   { label: '资质证书', href: '#qualifications' },
   { label: '联系方式', href: '#contact' },
-  { label: '学员留言', href: '#comments' },
 ];

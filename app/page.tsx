@@ -4,7 +4,6 @@ import Hero from '@/components/sections/Hero';
 import About from '@/components/sections/About';
 import dynamic from 'next/dynamic';
 import { SectionSkeleton } from '@/components/skeletons/SectionSkeleton';
-import { CommentsSkeleton } from '@/components/skeletons/CommentsSkeleton';
 
 // 非首屏组件使用动态导入以提升首屏加载性能
 const Projects = dynamic(() => import('@/components/sections/Projects'), {
@@ -17,10 +16,6 @@ const Qualifications = dynamic(() => import('@/components/sections/Qualification
 
 const Contact = dynamic(() => import('@/components/sections/Contact'), {
   loading: () => <SectionSkeleton />,
-});
-
-const Comments = dynamic(() => import('@/components/sections/Comments'), {
-  loading: () => <CommentsSkeleton />,
 });
 
 const jsonLd = {
@@ -70,10 +65,6 @@ export default function Home() {
 
         <section id="contact" className="bg-white">
           <Contact />
-        </section>
-
-        <section id="comments">
-          <Comments />
         </section>
 
         <Footer />

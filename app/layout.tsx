@@ -18,6 +18,12 @@ export const metadata: Metadata = {
   authors: [{ name: '于增', url: 'https://yuzeng.com' }],
   creator: '于增',
   publisher: 'Fisher老师',
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5,
+    userScalable: true,
+  },
   openGraph: {
     type: 'website',
     locale: 'zh_CN',

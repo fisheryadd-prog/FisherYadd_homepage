@@ -3,14 +3,6 @@ export interface NavLink {
   href: string;
 }
 
-export interface Comment {
-  id: string;
-  name: string;
-  content: string;
-  date: string;
-  likes: number;
-}
-
 export interface Project {
   title: string;
   description: string;
@@ -19,10 +11,4 @@ export interface Project {
   gradient: string;
   tags: string[];
   status: string;
-}
-
-export interface FormData {
-  name: string;
-  email: string;
-  content: string;
 }

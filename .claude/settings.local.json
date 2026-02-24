@@ -16,7 +16,8 @@
       "Bash(git checkout:*)",
       "Bash(npm ci)",
       "Bash(npm install:*)",
-      "Bash(git remote set-url:*)"
+      "Bash(git remote set-url:*)",
+      "Bash(npm run lint)"
     ]
   }
 }

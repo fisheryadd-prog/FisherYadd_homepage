@@ -52,12 +52,6 @@ const Footer = () => {
                   <span className="opacity-0 group-hover:opacity-100 transition-opacity">→</span>
                 </a>
               </li>
-              <li>
-                <a href="#comments" className="hover:text-blue-400 transition-colors inline-flex items-center gap-2 group">
-                  <span>学员留言</span>
-                  <span className="opacity-0 group-hover:opacity-100 transition-opacity">→</span>
-                </a>
-              </li>
             </ul>
           </div>
 
